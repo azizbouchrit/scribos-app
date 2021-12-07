@@ -1,0 +1,35 @@
+.home {
+  background-color: #fff;
+  max-width: 800px;
+  border-radius: 5px;
+  padding: 24px;
+  box-shadow: 0px 3px 13px 1px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0px 3px 13px 1px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 3px 13px 1px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  margin-bottom: 32px;
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin: 16px 0;
+}
+
+.form-input,
+select {
+  border: 1px solid #8a8a8a;
+  border-radius: 15px;
+  padding: 8px 10px;
+  font-size: 1rem;
+}

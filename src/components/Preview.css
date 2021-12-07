@@ -1,0 +1,78 @@
+.preview {
+  position: relative;
+}
+
+.preview__bg{
+  width: 400px;
+
+}
+
+.exchange {
+  font-size: 0.7rem;
+  position: absolute;
+  top: 3%;
+  left: 15%;
+  /* left: 10%; */
+}
+
+.designation {
+  position: absolute;
+  top: 11%;
+  left: 15%;
+}
+
+.bar-code {
+  position: absolute;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+}
+
+.bar-code canvas {
+  height: 40px;
+  
+}
+
+.reference {
+  position: absolute;
+  top: 43%;
+  /* left: 30%; */
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+
+}
+
+.quantity {
+  position: absolute;
+  top: 62%;
+  left: 15%;
+  font-weight: bold;
+}
+
+.country {
+  position: absolute;
+  top: 72%;
+  left: 15%;
+}
+
+.date {
+  writing-mode: vertical-rl;
+  position: absolute;
+  top: 25%;
+  right: 13%;
+  font-size: 0.8rem;
+}
+
+
+@media screen and (max-width: 550px) {
+  .preview__bg{
+    width: 300px;
+  }
+
+  .bar-code canvas {
+    height: 30px;
+  }
+  
+}
